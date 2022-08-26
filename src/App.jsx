@@ -2,13 +2,7 @@ import logo from "./logo.svg";
 // import "./App.css";
 import "./style.css";
 import { Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Index from "./pages/index"; //Ga jadi di import
-import Counter from "./pages/Counter";
-import Text from "./pages/Text";
-import List from "./pages/List";
-import Filter from "./pages/Filter";
+
 
 
 function App() {
