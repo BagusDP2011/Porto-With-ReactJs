@@ -1,15 +1,20 @@
 import logo from "./logo.svg";
 // import "./App.css";
 import "./style.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Index from "./pages/index"; //Ga jadi di import
+import Counter from "./pages/Counter";
+import Text from "./pages/Text";
+import List from "./pages/List";
+import Filter from "./pages/Filter";
+
 
 function App() {
   return (
     <>
-      {/* <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes> */}
+      {/* <Link to = "/index"> Wibi </Link> */}
       {/* <h1>Hello dunia</h1> */}
       <meta charSet="UTF-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

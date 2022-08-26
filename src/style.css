@@ -19,7 +19,8 @@ a:hover{
 #navbar {
     margin: 0;
     display: flex;
-    position: sticky;
+    /* position: sticky; */
+    position: fixed;
     padding: 0px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
