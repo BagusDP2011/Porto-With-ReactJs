@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body {
     background-color: lightgrey;
     color: black;
@@ -5,6 +8,11 @@ body {
 }
 a {
     text-decoration: none;
+    background-color: lightseagreen;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10%;
+    transition: all 2500ms ease ;
 
 }
 a:link {

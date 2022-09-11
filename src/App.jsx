@@ -1,29 +1,34 @@
-import logo from "./logo.svg";
-// import "./App.css";
 import "./style.css";
-import { Routes, Route, Link } from "react-router-dom";
-
-
 
 function App() {
   return (
     <>
-      {/* <Link to = "/index"> Wibi </Link> */}
-      {/* <h1>Hello dunia</h1> */}
       <meta charSet="UTF-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>BagusDP Portofolio</title>
-      <link rel="stylesheet" href="../Day-3/style.css" />
+      <meta
+        name="description"
+        content="Mini portofolio of Bagus Dwi Putra or also known as GusbaXD. 
+        I hope this is enough to show that I am understand how to create basic 
+        front-end related knowledge. Please help me improve my skills."
+      />
       <div id="navbar">
-        <div> <a href="#mainpage"> Mainpage </a> </div>
-        <div> <a href="#education"> Education </a> </div>
-        <div> <a href="#workExp"> Work Experience </a> </div>
-        <div> <a href="#contactMeBox"> Contact Me </a> </div>
+        <div>
+          <a href="#mainpage"> Mainpage </a>
+        </div>
+        <div>
+          <a href="#education"> Education </a>
+        </div>
+        <div>
+          <a href="#workExp"> Work Experience </a>
+        </div>
+        <div>
+          <a href="#contactMeBox"> Contact Me </a>
+        </div>
       </div>
       <div id="mainpage">
         <div>
-          {" "}
           <img
             className="profile"
             src={require("./assets/profile.jpg")}
@@ -44,7 +49,6 @@ function App() {
         </div>
       </div>
       <p style={{ fontSize: 40 }}>
-        {" "}
         <b>Professional Summary </b>
       </p>
       <div id="proSumm">
@@ -61,7 +65,7 @@ function App() {
         <div className="kosongkanantengah" />
       </div>
       <p style={{ fontSize: 40 }}>
-        <b> Education </b>{" "}
+        <b> Education </b>
       </p>
       <div id="education">
         <div className="kosong" />
@@ -124,8 +128,7 @@ function App() {
         </div>
       </div>
       <p style={{ fontSize: 40 }}>
-        {" "}
-        <b> Work Experience </b>{" "}
+        <b> Work Experience </b>
       </p>
       <div id="workExp">
         <div className="kosong" />
@@ -191,8 +194,7 @@ function App() {
             />
           </div>
           <div className="manufactureImgTitle">
-            {" "}
-            PCBA Electronics Manufacturing{" "}
+            PCBA Electronics Manufacturing
           </div>
           <div className="manufactureAbility"> Machine Knowledge :</div>
           <div id="machineList">
@@ -219,8 +221,7 @@ function App() {
         <div className="kosong" />
       </div>
       <p style={{ fontSize: 40 }}>
-        {" "}
-        <b> Contact Me </b>{" "}
+        <b> Contact Me </b>
       </p>
       <div id="contactMeBox">
         <div className="kosong" />
@@ -233,8 +234,7 @@ function App() {
         </div>
         <div className="contactMe">
           <div className="contactMeTitle">
-            {" "}
-            <b>Talk to me!</b>{" "}
+            <b>Talk to me!</b>
           </div>
           <div className="contactMeText"> Name </div>
           <div className="contactMeText"> Email </div>
