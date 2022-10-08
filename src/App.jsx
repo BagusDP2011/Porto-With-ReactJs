@@ -6,6 +6,7 @@ function App() {
       <meta charSet="UTF-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="author" content="BagusDP"/>
       <title>BagusDP Portofolio</title>
       <meta
         name="description"
@@ -38,9 +39,10 @@ function App() {
           />
         </div>
         <div>
-          <p className="titleName"> BagusDP</p>
+          <p className="titleName"> Bagus Dwi Putra</p>
           <p className="titleSub"> An IT Enthusiast</p>
-          <p style={{ fontWeight: "bold", fontSize: 30 }}> Contact Details </p>
+          {/* <p className="titleSub"> To</p> */}
+          <p style={{ fontWeight: "bold", fontSize: 24 }}> Contact Details </p>
           <p className="titleDesc">
             Batam, Kepulauan Riau <br />
             Phone: 081278732817 <br />
@@ -106,7 +108,7 @@ function App() {
           serta karir yang sangat besar dari sini.
         </div>
         <div className="eduText">
-          Salah jurusan kang. Disini saya mempelajari berbagai desain model
+          Disini saya mempelajari berbagai desain model
           bangunan dan pendukungnya. Inti dari jurusan ini adalah untuk
           menggabungkan semua desain dan detail menjadi satu.
         </div>
@@ -226,19 +228,42 @@ function App() {
       <div id="contactMeBox">
         <div className="kosong" />
         <div>
-          <img
-            className="imgContactMe"
-            src={require("./assets/maps purwadhika.jpg")}
-            alt="Maps Purwadhika"
-          />
+        
+        {/* API Google Maps */}
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Masjid%20Darussalam%20batu%20aji%20batam&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/"></a><br/></div></div>
+        
         </div>
         <div className="contactMe">
           <div className="contactMeTitle">
             <b>Talk to me!</b>
           </div>
-          <div className="contactMeText"> Name </div>
-          <div className="contactMeText"> Email </div>
-          <div className="kotakContactMe"> Contact Us </div>
+          <div className="contactMeText"> Contacts Links:</div> <br/>
+          <div classname="contactLinksDiv">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20px" height='20px'/>
+            <a href="https://www.linkedin.com/in/bagus-dwi-putra/" target="_blank">LinkedIn profile to bagus-dwi-putra</a> <br/>
+            <br />
+            </div>
+            <div classname="contactLinksDiv">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Gmail_Icon_%282013-2020%29.svg/2560px-Gmail_Icon_%282013-2020%29.svg.png" alt="Gmail" width="40px" height='20px'/>
+            <a href="mailto:bagusdp2011@gmail.com" target="_blank">Email me an offer to bagusdp2011@gmail.com</a> <br/>
+            <br />
+            </div>
+            <div classname="contactLinksDiv">
+            <img src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png" alt="WhatsApp"  width="20px" height='20px'/>
+            <a href="http://wa.me/+6281278732817" target="_blank">WhatsApp me a schedule to +6281278732817</a> <br/>
+            <br />
+            </div>
+            <div classname="contactLinksDiv">
+            <img src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt="GitHub"  width="40px" height='20px'/>
+            <a href="https://github.com/BagusDP2011" target="_blank">Spy my GitHub</a> <br/>
+            <br />
+            </div>
+            <div classname="contactLinksDiv">
+            <img src="https://dabhobbies.com/wp-content/uploads/2021/01/linktree-logo-350px.jpg" alt="LinkTree"  width="20px" height='20px'/>
+            <a href="https://linktr.ee/bagusdp2011" target="_blank">Visit my LinkTree</a> <br/>
+            <br />
+            </div>
+         
         </div>
         <div className="kosong" />
       </div>
