@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.0bf33395.css",
+    "main.js": "/react-gh-pages/static/js/main.99d390ce.js",
+    "static/js/787.a479362b.chunk.js": "/react-gh-pages/static/js/787.a479362b.chunk.js",
+    "static/media/03 Smkn1.png": "/react-gh-pages/static/media/03 Smkn1.780609b8124b8ea8168b.png",
+    "static/media/PCBA.jpg": "/react-gh-pages/static/media/PCBA.ef188cd4e9a9bd8261cf.jpg",
+    "static/media/02 bca a.jpg": "/react-gh-pages/static/media/02 bca a.d10c82f93986bcf04575.jpg",
+    "static/media/01 purwadhika.png": "/react-gh-pages/static/media/01 purwadhika.3ec53691dc4f053846bd.png",
+    "static/media/profile.jpg": "/react-gh-pages/static/media/profile.76f309e5f1d5afe5941b.jpg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.0bf33395.css.map": "/react-gh-pages/static/css/main.0bf33395.css.map",
+    "main.99d390ce.js.map": "/react-gh-pages/static/js/main.99d390ce.js.map",
+    "787.a479362b.chunk.js.map": "/react-gh-pages/static/js/787.a479362b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bf33395.css",
+    "static/js/main.99d390ce.js"
+  ]
+}
